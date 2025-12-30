@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Special Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="event-card">
+    <h1>🎉 Special Celebration Event 🎉</h1>
+    <p>Please enter your Date of Birth to continue</p>
+
+    <input type="date" id="dob" required>
+    <button onclick="submitDOB()">Submit</button>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2>🎂 Happy Birthday! 🎂</h2>
+      <p>Wishing you a wonderful year ahead!</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
